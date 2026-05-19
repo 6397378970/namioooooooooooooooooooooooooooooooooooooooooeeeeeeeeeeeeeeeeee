@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx artifacts/index.ts",
-    "build": "tsc",
+    "build": "tsc --noEmitOnError false",
     "start": "node dist/index.js"
   },
   "dependencies": {
@@ -13,7 +13,7 @@
     "drizzle-orm": "^0.30.10",
     "express": "^4.19.2",
     "pg": "^8.11.5",
-    "telegraf": "4.12.2"
+    "telegraf": "4.16.3"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
