@@ -6,7 +6,8 @@
     "rootDir": "./",
     "strict": false,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noEmitOnError": false
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist"]
